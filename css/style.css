@@ -1,0 +1,15 @@
+#movieResults img{
+    width: 100%;
+}
+
+#movieResults .col-lg-3 .well{
+    height: 360px;
+    background-color:#282828;
+    padding:10px;
+    margin: 15px 12px 12px 15px ;
+    border-radius: 4px;
+}
+
+#movieResults .col-lg-3 img{
+    height : 240px;
+}
