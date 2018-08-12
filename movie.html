@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.css">
+    <link rel="stylesheet" href="https://bootswatch.com/3/darkly/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>IMBD Movie</title>
 </head>
-<body>
+<body onLoad="getMovie()">
     <nav class="navbar navbar-dafault">
-        <div class="containter">
+        <div class="container">
             <div class="navbar-header">
                 <a href="index.html" class="navbar-brand">Movies Info</a>
             </div>
@@ -27,7 +27,4 @@
   crossorigin="anonymous"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="js/main.js"></script>
-<script>
-    getMovie();
-</script>
 </html>
